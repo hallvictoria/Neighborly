@@ -1,0 +1,117 @@
+.wrapper {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 50px 20px;
+    padding-top: 100px;
+    display: flex;
+    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+  
+    display: flex;
+    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+  
+    @media screen and (max-width: 768px) {
+      height: auto;
+      min-height: 100vh;
+      padding-top: 100px;
+    }
+  }
+
+  .secretDiv {
+      margin-left: 32px;
+      height: 250px;
+      width: 250px;
+      overflow: hidden;
+      border-radius: 25px;
+  }
+
+  #gradient
+  {
+    width: 100%;
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.animation {
+    animation: App-logo-spin infinite 20s linear;
+    display: block;
+    margin: auto;
+    width: 50%;
+} 
+
+.buttonContainer {
+    padding-top: 70px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.heading {
+    display: inline-block;
+}
+
+.gridContainer {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+  }
+
+.loading-logo {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.loading-page {
+    margin-top: -100px;
+}
+
+.loadingButton {
+  border: 2px solid;
+  border-color: #ff2894;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  color: #ff2894;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: 0px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loadingButton:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+    .animation {
+        /* will most likely need css specific for lottie animation*/
+    }
+    .buttonContainer {
+        padding: 16px;
+        margin-top: -50px;
+    }
+    .heading {
+        display: block;
+    }
+    .gridContainer {
+        display: block;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    .loading-logo {
+        width: 80%;
+        margin-top: -80px;
+        margin-bottom: 25px;
+    }
+    .loading-page {
+        margin-top: 0px;
+    }
+}

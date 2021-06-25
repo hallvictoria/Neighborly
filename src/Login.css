@@ -1,0 +1,150 @@
+.background {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* padding: 50px 20px; */
+    display: flex;
+    background-image: #F7F0E4;
+  
+    display: flex;
+    background-image: #F7F0E4;
+  
+    @media screen and (max-width: 768px) {
+      height: auto;
+      min-height: 100vh;
+      
+    }
+}
+
+.container {
+  padding: 16px;
+}
+
+.emailInput {
+    font-size: 16px;
+    padding-bottom: 1.5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    /* padding-bottom: 130px; */
+    background-color: #F7F0E4;
+  }
+
+.grid-item {
+    padding: 20px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+  }
+
+.loginButton {
+  background-color: #E81E1E;
+  border-radius: 25px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginButton:hover {
+  opacity: 0.8;
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neighborlyLogo {
+    display: block;
+    margin: auto;
+    width: 80%;
+} 
+
+.passwordButton {
+    border: 2px solid;
+    background-color: #FFFFFF;
+    border-color: #E81E1E;
+    border-radius: 25px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .passwordButton:hover {
+    opacity: 0.8;
+  }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    background-color: #E81E1E;
+    border-radius: 25px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+
+h1 {
+    text-align: center;
+    padding-bottom: 8px;
+    font-weight: normal;
+} 
+
+input[type=text], input[type=password] {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+    font-size: 16px;
+    text-align: end;
+    font-style: normal;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 400px) {
+    .emailInput {
+        margin-bottom: -10px;
+        padding-bottom: 13px;
+    }
+    .grid-container {
+            display: block; 
+        }
+    .neighborlyLogo {
+        width: 80%;
+        margin-top: 25px;
+        margin-bottom: -25px;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: normal;
+    } 
+}
